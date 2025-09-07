@@ -20,4 +20,12 @@ func main() {
 	for i := 1; i <= 100; i++ {
 		fmt.Println(i)
 	}
+
+	// Easy problem: Check if a number is even or odd
+	num := 15
+	if num%2 == 0 {
+		fmt.Printf("%d is even\n", num)
+	} else {
+		fmt.Printf("%d is odd\n", num)
+	}
 }
