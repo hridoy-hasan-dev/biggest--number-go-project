@@ -16,4 +16,8 @@ func main() {
 	}
 
 	fmt.Printf("The biggest number is: %d\n", biggest)
+
+	for i := 1; i <= 100; i++ {
+		fmt.Println(i)
+	}
 }
